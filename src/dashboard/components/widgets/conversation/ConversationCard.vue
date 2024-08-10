@@ -55,7 +55,7 @@
 </template>
 <script>
 import { mapGetters } from 'vuex';
-import { MESSAGE_TYPE } from 'widget/helpers/constants';
+
 import messageFormatterMixin from 'shared/mixins/messageFormatterMixin';
 import { getInboxClassByType } from 'dashboard/helper/inbox';
 import Thumbnail from '../Thumbnail';
@@ -63,6 +63,14 @@ import conversationMixin from '../../../mixins/conversations';
 import timeMixin from '../../../mixins/time';
 import router from '../../../routes';
 import { frontendURL, conversationUrl } from '../../../helper/URLHelper';
+
+
+const MESSAGE_TYPE = {
+  INCOMING: 0,
+  OUTGOING: 1,
+  ACTIVITY: 2,
+  TEMPLATE: 3,
+};
 
 export default {
   components: {
