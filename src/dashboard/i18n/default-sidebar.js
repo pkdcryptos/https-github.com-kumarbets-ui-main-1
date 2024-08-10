@@ -33,27 +33,8 @@ export const getSidebarItems = accountId => ({
         toState: frontendURL(`accounts/${accountId}/contacts`),
         toStateName: 'contacts_dashboard',
       },
-      notifications: {
-        icon: 'ion-ios-bell',
-        label: 'NOTIFICATIONS',
-        hasSubMenu: false,
-        toState: frontendURL(`accounts/${accountId}/notifications`),
-        toStateName: 'notifications_dashboard',
-      },
-      report: {
-        icon: 'ion-arrow-graph-up-right',
-        label: 'REPORTS',
-        hasSubMenu: false,
-        toState: frontendURL(`accounts/${accountId}/reports`),
-        toStateName: 'settings_account_reports',
-      },
-      settings: {
-        icon: 'ion-settings',
-        label: 'SETTINGS',
-        hasSubMenu: false,
-        toState: frontendURL(`accounts/${accountId}/settings`),
-        toStateName: 'settings_home',
-      },
+
+     
     },
   },
   contacts: {
@@ -79,32 +60,7 @@ export const getSidebarItems = accountId => ({
       },
     },
   },
-  reports: {
-    routes: ['settings_account_reports', 'csat_reports'],
-    menuItems: {
-      back: {
-        icon: 'ion-ios-arrow-back',
-        label: 'HOME',
-        hasSubMenu: false,
-        toStateName: 'home',
-        toState: frontendURL(`accounts/${accountId}/dashboard`),
-      },
-      reportOverview: {
-        icon: 'ion-arrow-graph-up-right',
-        label: 'REPORTS_OVERVIEW',
-        hasSubMenu: false,
-        toState: frontendURL(`accounts/${accountId}/reports/overview`),
-        toStateName: 'settings_account_reports',
-      },
-      csatReports: {
-        icon: 'ion-happy',
-        label: 'CSAT',
-        hasSubMenu: false,
-        toState: frontendURL(`accounts/${accountId}/reports/csat`),
-        toStateName: 'csat_reports',
-      },
-    },
-  },
+
   settings: {
     routes: [
       'agent_list',
@@ -162,43 +118,8 @@ export const getSidebarItems = accountId => ({
         toState: frontendURL(`accounts/${accountId}/settings/inboxes/list`),
         toStateName: 'settings_inbox_list',
       },
-      labels: {
-        icon: 'ion-pricetags',
-        label: 'LABELS',
-        hasSubMenu: false,
-        toState: frontendURL(`accounts/${accountId}/settings/labels/list`),
-        toStateName: 'labels_list',
-      },
-      cannedResponses: {
-        icon: 'ion-chatbox-working',
-        label: 'CANNED_RESPONSES',
-        hasSubMenu: false,
-        toState: frontendURL(
-          `accounts/${accountId}/settings/canned-response/list`
-        ),
-        toStateName: 'canned_list',
-      },
-      settings_integrations: {
-        icon: 'ion-flash',
-        label: 'INTEGRATIONS',
-        hasSubMenu: false,
-        toState: frontendURL(`accounts/${accountId}/settings/integrations`),
-        toStateName: 'settings_integrations',
-      },
-      settings_applications: {
-        icon: 'ion-asterisk',
-        label: 'APPLICATIONS',
-        hasSubMenu: false,
-        toState: frontendURL(`accounts/${accountId}/settings/applications`),
-        toStateName: 'settings_applications',
-      },
-      general_settings_index: {
-        icon: 'ion-gear-a',
-        label: 'ACCOUNT_SETTINGS',
-        hasSubMenu: false,
-        toState: frontendURL(`accounts/${accountId}/settings/general`),
-        toStateName: 'general_settings_index',
-      },
+      
+     
     },
   },
 });

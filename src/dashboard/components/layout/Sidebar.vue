@@ -65,9 +65,7 @@
       @close-account-create-modal="closeCreateAccountModal"
     />
 
-    <woot-modal :show.sync="showAddLabelModal" :on-close="hideAddLabelPopup">
-      <add-label-modal @close="hideAddLabelPopup" />
-    </woot-modal>
+
   </aside>
 </template>
 
@@ -85,7 +83,7 @@ import AgentDetails from './sidebarComponents/AgentDetails.vue';
 import OptionsMenu from './sidebarComponents/OptionsMenu.vue';
 import AccountSelector from './sidebarComponents/AccountSelector.vue';
 import AddAccountModal from './sidebarComponents/AddAccountModal.vue';
-import AddLabelModal from '../../routes/dashboard/settings/labels/AddLabel';
+
 
 export default {
   components: {
@@ -96,7 +94,6 @@ export default {
     OptionsMenu,
     AccountSelector,
     AddAccountModal,
-    AddLabelModal,
   },
   mixins: [adminMixin, alertMixin],
   data() {
@@ -104,7 +101,7 @@ export default {
       showOptionsMenu: false,
       showAccountModal: false,
       showCreateAccountModal: false,
-      showAddLabelModal: false,
+
     };
   },
 
@@ -293,12 +290,7 @@ export default {
     closeCreateAccountModal() {
       this.showCreateAccountModal = false;
     },
-    showAddLabelPopup() {
-      this.showAddLabelModal = true;
-    },
-    hideAddLabelPopup() {
-      this.showAddLabelModal = false;
-    },
+
   },
 };
 </script>
