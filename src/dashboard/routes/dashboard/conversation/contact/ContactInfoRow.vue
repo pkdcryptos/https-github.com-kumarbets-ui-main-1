@@ -29,8 +29,8 @@
 </template>
 <script>
 import copy from 'copy-text-to-clipboard';
-import alertMixin from 'shared/mixins/alertMixin';
-import EmojiOrIcon from 'shared/components/EmojiOrIcon';
+import alertMixin from 'dashboard/mixins/alertMixin';
+import EmojiOrIcon from 'dashboard/components/EmojiOrIcon';
 
 export default {
   components: {

@@ -240,8 +240,8 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import alertMixin from 'shared/mixins/alertMixin';
-import configMixin from 'shared/mixins/configMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
+import configMixin from 'dashboard/mixins/configMixin';
 import uiSettingsMixin from 'dashboard/mixins/uiSettings';
 import {
   hasPushPermissions,

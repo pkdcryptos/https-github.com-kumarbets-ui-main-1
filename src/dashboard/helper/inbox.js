@@ -1,4 +1,4 @@
-import { INBOX_TYPES } from 'shared/mixins/inboxMixin';
+import { INBOX_TYPES } from 'dashboard/mixins/inboxMixin';
 
 export const getInboxClassByType = (type, phoneNumber) => {
   switch (type) {

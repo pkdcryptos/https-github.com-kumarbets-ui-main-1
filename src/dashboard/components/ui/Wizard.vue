@@ -27,7 +27,7 @@
 
 <script>
 /* eslint no-console: 0 */
-import globalConfigMixin from 'shared/mixins/globalConfigMixin';
+import globalConfigMixin from 'dashboard/mixins/globalConfigMixin';
 
 export default {
   mixins: [globalConfigMixin],

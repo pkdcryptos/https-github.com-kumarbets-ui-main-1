@@ -35,7 +35,7 @@
 import { mapGetters } from 'vuex';
 import { frontendURL, conversationUrl } from 'dashboard/helper/URLHelper';
 import timeMixin from 'dashboard/mixins/time';
-import messageFormatterMixin from 'shared/mixins/messageFormatterMixin';
+import messageFormatterMixin from 'dashboard/mixins/messageFormatterMixin';
 import SearchMessageItem from './SearchMessageItem.vue';
 
 export default {

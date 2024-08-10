@@ -51,7 +51,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 import validationMixin from './validationMixin';
 import validations from './validations';
 

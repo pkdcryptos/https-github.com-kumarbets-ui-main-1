@@ -39,7 +39,7 @@
 <script>
 import { mapGetters } from 'vuex';
 import CsatMetricCard from './CsatMetricCard';
-import { CSAT_RATINGS } from 'shared/constants/messages';
+import { CSAT_RATINGS } from 'dashboard/constants/messages';
 
 export default {
   components: {

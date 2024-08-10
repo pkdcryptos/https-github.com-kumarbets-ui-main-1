@@ -104,8 +104,8 @@
 import { required, minLength, email } from 'vuelidate/lib/validators';
 import Auth from '../../api/auth';
 import { mapGetters } from 'vuex';
-import globalConfigMixin from 'shared/mixins/globalConfigMixin';
-import alertMixin from 'shared/mixins/alertMixin';
+import globalConfigMixin from 'dashboard/mixins/globalConfigMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 import { DEFAULT_REDIRECT_URL } from '../../constants';
 
 export default {

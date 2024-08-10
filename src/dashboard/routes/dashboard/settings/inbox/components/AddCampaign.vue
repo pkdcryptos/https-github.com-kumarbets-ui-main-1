@@ -140,8 +140,8 @@
 <script>
 import { mapGetters } from 'vuex';
 import { required, url, minLength } from 'vuelidate/lib/validators';
-import alertMixin from 'shared/mixins/alertMixin';
-import campaignMixin from 'shared/mixins/campaignMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
+import campaignMixin from 'dashboard/mixins/campaignMixin';
 import WootDateTimePicker from 'dashboard/components/ui/DateTimePicker.vue';
 
 export default {

@@ -1,7 +1,7 @@
 import {
   DuplicateContactException,
   ExceptionWithMessage,
-} from 'shared/helpers/CustomErrors';
+} from 'dashboard/helpers/CustomErrors';
 import types from '../../mutation-types';
 import ContactAPI from '../../../api/contacts';
 

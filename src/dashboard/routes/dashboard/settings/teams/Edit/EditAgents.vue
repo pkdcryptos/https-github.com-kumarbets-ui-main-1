@@ -32,8 +32,8 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import Spinner from 'shared/components/Spinner';
-import alertMixin from 'shared/mixins/alertMixin';
+import Spinner from 'dashboard/components/Spinner';
+import alertMixin from 'dashboard/mixins/alertMixin';
 
 import router from '../../../../index';
 import PageHeader from '../../SettingsSubPageHeader';

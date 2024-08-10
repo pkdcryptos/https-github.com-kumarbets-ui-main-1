@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import Spinner from 'shared/components/Spinner';
+import Spinner from 'dashboard/components/Spinner';
 
 export default {
   components: {

@@ -18,12 +18,12 @@
 <script>
 import { mixin as clickaway } from 'vue-clickaway';
 import { VeTable } from 'vue-easytable';
-import Spinner from 'shared/components/Spinner.vue';
+import Spinner from 'dashboard/components/Spinner.vue';
 import Label from 'dashboard/components/ui/Label';
 import EmptyState from 'dashboard/components/widgets/EmptyState.vue';
 import WootButton from 'dashboard/components/ui/WootButton.vue';
 import UserAvatarWithName from 'dashboard/components/widgets/UserAvatarWithName';
-import campaignMixin from 'shared/mixins/campaignMixin';
+import campaignMixin from 'dashboard/mixins/campaignMixin';
 import timeMixin from 'dashboard/mixins/time';
 
 export default {

@@ -92,7 +92,7 @@
 <script>
 import { mapGetters } from 'vuex';
 import { required, url, minLength } from 'vuelidate/lib/validators';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 export default {
   mixins: [alertMixin],
   props: {

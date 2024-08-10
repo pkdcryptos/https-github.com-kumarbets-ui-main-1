@@ -34,8 +34,8 @@
 </template>
 
 <script>
-import AddLabel from 'shared/components/ui/dropdown/AddLabel';
-import LabelDropdown from 'shared/components/ui/label/LabelDropdown';
+import AddLabel from 'dashboard/components/ui/dropdown/AddLabel';
+import LabelDropdown from 'dashboard/components/ui/label/LabelDropdown';
 import { mixin as clickaway } from 'vue-clickaway';
 
 export default {

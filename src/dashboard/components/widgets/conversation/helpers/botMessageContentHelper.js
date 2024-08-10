@@ -1,4 +1,4 @@
-import { CSAT_RATINGS } from '../../../../../shared/constants/messages';
+import { CSAT_RATINGS } from '../../../../../dashboard/constants/messages';
 
 const generateInputSelectContent = contentAttributes => {
   const { submitted_values: submittedValues = [] } = contentAttributes;

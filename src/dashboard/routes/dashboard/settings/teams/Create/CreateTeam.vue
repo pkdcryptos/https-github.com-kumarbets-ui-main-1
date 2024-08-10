@@ -18,7 +18,7 @@
 import TeamForm from '../TeamForm';
 import router from '../../../../index';
 import PageHeader from '../../SettingsSubPageHeader';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 
 export default {
   components: {

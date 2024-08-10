@@ -1,6 +1,6 @@
-import * as MutationHelpers from 'shared/helpers/vuex/mutationHelpers';
+import * as MutationHelpers from 'dashboard/helpers/vuex/mutationHelpers';
 import * as types from '../mutation-types';
-import { INBOX_TYPES } from 'shared/mixins/inboxMixin';
+import { INBOX_TYPES } from 'dashboard/mixins/inboxMixin';
 import InboxesAPI from '../../api/inboxes';
 import WebChannel from '../../api/channel/webChannel';
 import FBChannel from '../../api/channel/fbChannel';

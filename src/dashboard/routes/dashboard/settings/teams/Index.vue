@@ -80,7 +80,7 @@
 import { mapGetters } from 'vuex';
 import adminMixin from '../../../../mixins/isAdmin';
 import accountMixin from '../../../../mixins/account';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 
 export default {
   components: {},

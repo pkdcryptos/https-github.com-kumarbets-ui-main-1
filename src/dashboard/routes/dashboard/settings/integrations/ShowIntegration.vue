@@ -23,7 +23,7 @@
 </template>
 <script>
 import { mapGetters } from 'vuex';
-import globalConfigMixin from 'shared/mixins/globalConfigMixin';
+import globalConfigMixin from 'dashboard/mixins/globalConfigMixin';
 import Integration from './Integration';
 import IntegrationHelpText from './IntegrationHelpText';
 

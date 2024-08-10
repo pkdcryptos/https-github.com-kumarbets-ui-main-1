@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import CardButton from 'shared/components/CardButton';
+import CardButton from 'dashboard/components/CardButton';
 
 export default {
   components: {

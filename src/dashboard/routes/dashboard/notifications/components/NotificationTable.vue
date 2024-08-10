@@ -78,7 +78,7 @@
 
 <script>
 import Thumbnail from 'dashboard/components/widgets/Thumbnail.vue';
-import Spinner from 'shared/components/Spinner.vue';
+import Spinner from 'dashboard/components/Spinner.vue';
 import EmptyState from 'dashboard/components/widgets/EmptyState.vue';
 import timeMixin from '../../../../mixins/time';
 import { mapGetters } from 'vuex';

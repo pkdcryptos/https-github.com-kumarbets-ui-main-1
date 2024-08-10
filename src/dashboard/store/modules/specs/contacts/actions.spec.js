@@ -5,7 +5,7 @@ import contactList from './fixtures';
 import {
   DuplicateContactException,
   ExceptionWithMessage,
-} from '../../../../../shared/helpers/CustomErrors';
+} from '../../../../../dashboard/helpers/CustomErrors';
 
 const { actions } = Contacts;
 

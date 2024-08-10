@@ -104,8 +104,8 @@
 <script>
 import { required, minValue } from 'vuelidate/lib/validators';
 import { mapGetters } from 'vuex';
-import alertMixin from 'shared/mixins/alertMixin';
-import configMixin from 'shared/mixins/configMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
+import configMixin from 'dashboard/mixins/configMixin';
 import accountMixin from '../../../../mixins/account';
 const semver = require('semver');
 

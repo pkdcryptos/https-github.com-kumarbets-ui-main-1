@@ -44,7 +44,7 @@
 <script>
 import { isEmptyObject } from '../../../../helper/commons';
 import { mapGetters } from 'vuex';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 import hookMixin from './hookMixin';
 import NewHook from './NewHook';
 import SingleIntegrationHooks from './SingleIntegrationHooks';

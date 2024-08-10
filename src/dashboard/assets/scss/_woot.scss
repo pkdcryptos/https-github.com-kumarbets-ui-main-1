@@ -1,10 +1,10 @@
-@import 'shared/assets/fonts/inter';
-@import 'shared/assets/stylesheets/colors';
-@import 'shared/assets/stylesheets/spacing';
-@import 'shared/assets/stylesheets/font-size';
-@import 'shared/assets/stylesheets/font-weights';
-@import 'shared/assets/stylesheets/shadows';
-@import 'shared/assets/stylesheets/border-radius';
+@import 'dashboard/assets/shared1/assets/fonts/inter';
+@import 'dashboard/assets/shared1/assets/stylesheets/colors';
+@import 'dashboard/assets/shared1/assets/stylesheets/spacing';
+@import 'dashboard/assets/shared1/assets/stylesheets/font-size';
+@import 'dashboard/assets/shared1/assets/stylesheets/font-weights';
+@import 'dashboard/assets/shared1/assets/stylesheets/shadows';
+@import 'dashboard/assets/shared1/assets/stylesheets/border-radius';
 
 @import 'variables';
 
@@ -47,4 +47,4 @@
 
 @import 'plugins/multiselect';
 @import 'plugins/dropdown';
-@import '~shared/assets/stylesheets/ionicons';
+@import '~dashboard/assets/shared1/assets/stylesheets/ionicons';

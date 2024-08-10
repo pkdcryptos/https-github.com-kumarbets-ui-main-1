@@ -105,9 +105,9 @@ import ReplyBox from './ReplyBox';
 import Message from './Message';
 import conversationMixin from '../../../mixins/conversations';
 import { getTypingUsersText } from '../../../helper/commons';
-import { BUS_EVENTS } from 'shared/constants/busEvents';
-import { REPLY_POLICY } from 'shared/constants/links';
-import inboxMixin from 'shared/mixins/inboxMixin';
+import { BUS_EVENTS } from 'dashboard/constants/busEvents';
+import { REPLY_POLICY } from 'dashboard/constants/links';
+import inboxMixin from 'dashboard/mixins/inboxMixin';
 import { calculateScrollTop } from './helpers/scrollTopCalculationHelper';
 
 export default {

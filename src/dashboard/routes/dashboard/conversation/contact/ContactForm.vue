@@ -94,14 +94,14 @@
 </template>
 
 <script>
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 import {
   DuplicateContactException,
   ExceptionWithMessage,
-} from 'shared/helpers/CustomErrors';
+} from 'dashboard/helpers/CustomErrors';
 import { required } from 'vuelidate/lib/validators';
 
-import { isPhoneE164OrEmpty } from 'shared/helpers/Validators';
+import { isPhoneE164OrEmpty } from 'dashboard/helpers/Validators';
 
 export default {
   mixins: [alertMixin],

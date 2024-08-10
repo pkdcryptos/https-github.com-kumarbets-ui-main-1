@@ -83,7 +83,7 @@ import { mapGetters } from 'vuex';
 import ChannelApi from '../../../../../api/channels';
 import PageHeader from '../../SettingsSubPageHeader';
 import router from '../../../../index';
-import globalConfigMixin from 'shared/mixins/globalConfigMixin';
+import globalConfigMixin from 'dashboard/mixins/globalConfigMixin';
 import accountMixin from '../../../../../mixins/account';
 
 export default {

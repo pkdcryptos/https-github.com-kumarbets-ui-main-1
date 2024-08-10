@@ -37,7 +37,7 @@
 </template>
 <script>
 import { mapGetters } from 'vuex';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 import hookMixin from './hookMixin';
 
 export default {

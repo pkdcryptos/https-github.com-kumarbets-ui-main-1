@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import EmojiOrIcon from 'shared/components/EmojiOrIcon';
+import EmojiOrIcon from 'dashboard/components/EmojiOrIcon';
 
 export default {
   components: {

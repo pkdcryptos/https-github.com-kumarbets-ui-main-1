@@ -44,9 +44,9 @@
 <script>
 import { mapGetters } from 'vuex';
 import ContactDetailsItem from '../ContactDetailsItem';
-import Spinner from 'shared/components/Spinner';
-import LabelDropdown from 'shared/components/ui/label/LabelDropdown';
-import AddLabel from 'shared/components/ui/dropdown/AddLabel';
+import Spinner from 'dashboard/components/Spinner';
+import LabelDropdown from 'dashboard/components/ui/label/LabelDropdown';
+import AddLabel from 'dashboard/components/ui/dropdown/AddLabel';
 import { mixin as clickaway } from 'vue-clickaway';
 
 export default {

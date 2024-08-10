@@ -104,8 +104,8 @@
 import { mapGetters } from 'vuex';
 import NewWebhook from './NewWebHook';
 import EditWebhook from './EditWebHook';
-import alertMixin from 'shared/mixins/alertMixin';
-import globalConfigMixin from 'shared/mixins/globalConfigMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
+import globalConfigMixin from 'dashboard/mixins/globalConfigMixin';
 
 export default {
   components: {

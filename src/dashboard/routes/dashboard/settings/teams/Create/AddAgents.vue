@@ -29,7 +29,7 @@
 <script>
 import { mapGetters } from 'vuex';
 
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 import router from '../../../../index';
 import PageHeader from '../../SettingsSubPageHeader';
 import AgentSelector from '../AgentSelector';

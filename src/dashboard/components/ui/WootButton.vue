@@ -16,8 +16,8 @@
   </button>
 </template>
 <script>
-import Spinner from 'shared/components/Spinner';
-import EmojiOrIcon from 'shared/components/EmojiOrIcon';
+import Spinner from 'dashboard/components/Spinner';
+import EmojiOrIcon from 'dashboard/components/EmojiOrIcon';
 
 export default {
   name: 'WootButton',

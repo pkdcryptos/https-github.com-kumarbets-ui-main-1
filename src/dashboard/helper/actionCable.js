@@ -1,6 +1,6 @@
 import AuthAPI from '../api/auth';
-import BaseActionCableConnector from '../../shared/helpers/BaseActionCableConnector';
-import { newMessageNotification } from 'shared/helpers/AudioNotificationHelper';
+import BaseActionCableConnector from '../../dashboard/helpers/BaseActionCableConnector';
+import { newMessageNotification } from 'dashboard/helpers/AudioNotificationHelper';
 
 class ActionCableConnector extends BaseActionCableConnector {
   constructor(app, pubsubToken) {

@@ -100,7 +100,7 @@ import { mapGetters } from 'vuex';
 
 import AddLabel from './AddLabel';
 import EditLabel from './EditLabel';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 
 export default {
   components: {

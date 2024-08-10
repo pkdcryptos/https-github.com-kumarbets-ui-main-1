@@ -42,7 +42,7 @@
 </template>
 <script>
 import { mapGetters } from 'vuex';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 import AddCampaign from './AddCampaign';
 import CampaignsTable from './CampaignsTable';
 import EditCampaign from './EditCampaign';

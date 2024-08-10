@@ -54,7 +54,7 @@
 </template>
 
 <script>
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 import validationMixin from './validationMixin';
 import { mapGetters } from 'vuex';
 import validations from './validations';

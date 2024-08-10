@@ -38,8 +38,8 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import Spinner from 'shared/components/Spinner';
-import { CSAT_RATINGS } from 'shared/constants/messages';
+import Spinner from 'dashboard/components/Spinner';
+import { CSAT_RATINGS } from 'dashboard/constants/messages';
 
 export default {
   components: {

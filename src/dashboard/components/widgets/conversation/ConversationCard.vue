@@ -56,7 +56,7 @@
 <script>
 import { mapGetters } from 'vuex';
 
-import messageFormatterMixin from 'shared/mixins/messageFormatterMixin';
+import messageFormatterMixin from 'dashboard/mixins/messageFormatterMixin';
 import { getInboxClassByType } from 'dashboard/helper/inbox';
 import Thumbnail from '../Thumbnail';
 import conversationMixin from '../../../mixins/conversations';

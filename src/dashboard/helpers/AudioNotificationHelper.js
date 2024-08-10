@@ -1,4 +1,4 @@
-import { MESSAGE_TYPE } from 'shared/constants/messages';
+import { MESSAGE_TYPE } from 'dashboard/constants/messages';
 import axios from 'axios';
 import { showBadgeOnFavicon } from './faviconHelper';
 

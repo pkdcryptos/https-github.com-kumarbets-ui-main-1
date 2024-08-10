@@ -73,26 +73,26 @@
 <script>
 import { mapGetters } from 'vuex';
 import { mixin as clickaway } from 'vue-clickaway';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 
-import EmojiInput from 'shared/components/emoji/EmojiInput';
+import EmojiInput from 'dashboard/components/emoji/EmojiInput';
 import CannedResponse from './CannedResponse';
-import ResizableTextArea from 'shared/components/ResizableTextArea';
+import ResizableTextArea from 'dashboard/components/ResizableTextArea';
 import AttachmentPreview from 'dashboard/components/widgets/AttachmentsPreview';
 import ReplyTopPanel from 'dashboard/components/widgets/WootWriter/ReplyTopPanel';
 import ReplyBottomPanel from 'dashboard/components/widgets/WootWriter/ReplyBottomPanel';
 import { REPLY_EDITOR_MODES } from 'dashboard/components/widgets/WootWriter/constants';
 import WootMessageEditor from 'dashboard/components/widgets/WootWriter/Editor';
-import { checkFileSizeLimit } from 'shared/helpers/FileHelper';
-import { MAXIMUM_FILE_UPLOAD_SIZE } from 'shared/constants/messages';
+import { checkFileSizeLimit } from 'dashboard/helpers/FileHelper';
+import { MAXIMUM_FILE_UPLOAD_SIZE } from 'dashboard/constants/messages';
 
 import {
   isEscape,
   isEnter,
   hasPressedShift,
-} from 'shared/helpers/KeyboardHelpers';
-import { MESSAGE_MAX_LENGTH } from 'shared/helpers/MessageTypeHelper';
-import inboxMixin from 'shared/mixins/inboxMixin';
+} from 'dashboard/helpers/KeyboardHelpers';
+import { MESSAGE_MAX_LENGTH } from 'dashboard/helpers/MessageTypeHelper';
+import inboxMixin from 'dashboard/mixins/inboxMixin';
 import uiSettingsMixin from 'dashboard/mixins/uiSettings';
 
 export default {

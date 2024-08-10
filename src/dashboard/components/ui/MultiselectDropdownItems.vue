@@ -57,8 +57,8 @@
 </template>
 
 <script>
-import WootDropdownItem from 'shared/components/ui/dropdown/DropdownItem.vue';
-import WootDropdownMenu from 'shared/components/ui/dropdown/DropdownMenu.vue';
+import WootDropdownItem from 'dashboard/components/ui/dropdown/DropdownItem.vue';
+import WootDropdownMenu from 'dashboard/components/ui/dropdown/DropdownMenu.vue';
 import Thumbnail from 'dashboard/components/widgets/Thumbnail.vue';
 export default {
   components: {

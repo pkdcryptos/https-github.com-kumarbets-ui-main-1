@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { hasEmojiSupport } from 'shared/helpers/emoji';
+import { hasEmojiSupport } from 'dashboard/helpers/emoji';
 import { mapGetters } from 'vuex';
 
 export default {

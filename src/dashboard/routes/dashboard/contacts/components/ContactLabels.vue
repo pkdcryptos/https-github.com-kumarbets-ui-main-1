@@ -10,7 +10,7 @@
 <script>
 import { mapGetters } from 'vuex';
 import LabelSelector from 'dashboard/components/widgets/LabelSelector.vue';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 
 export default {
   components: { LabelSelector },

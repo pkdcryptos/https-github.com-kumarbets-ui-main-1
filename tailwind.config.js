@@ -2,8 +2,6 @@ const { colors } = require('tailwindcss/defaultTheme');
 
 module.exports = {
   purge: [
-    './src/widget/**/*.vue',
-    './src/shared/**/*.vue',
   ],
   future: {
     removeDeprecatedGapUtilities: true,

@@ -11,7 +11,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import globalConfigMixin from 'shared/mixins/globalConfigMixin';
+import globalConfigMixin from 'dashboard/mixins/globalConfigMixin';
 
 export default {
   mixins: [globalConfigMixin],

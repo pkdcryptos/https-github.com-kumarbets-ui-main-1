@@ -1,4 +1,4 @@
-import BaseActionCableConnector from '../../shared/helpers/BaseActionCableConnector';
+import BaseActionCableConnector from '../../dashboard/helpers/BaseActionCableConnector';
 
 class ActionCableConnector extends BaseActionCableConnector {
   constructor(app, pubsubToken) {

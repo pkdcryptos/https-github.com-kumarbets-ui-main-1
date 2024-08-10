@@ -34,8 +34,8 @@
 </template>
 
 <script>
-import { MESSAGE_TYPE } from 'shared/constants/messages';
-import { BUS_EVENTS } from 'shared/constants/busEvents';
+import { MESSAGE_TYPE } from 'dashboard/constants/messages';
+import { BUS_EVENTS } from 'dashboard/constants/busEvents';
 
 export default {
   props: {

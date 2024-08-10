@@ -123,7 +123,7 @@
 </template>
 <script>
 import { mapGetters } from 'vuex';
-import globalConfigMixin from 'shared/mixins/globalConfigMixin';
+import globalConfigMixin from 'dashboard/mixins/globalConfigMixin';
 import Thumbnail from '../../../../components/widgets/Thumbnail';
 import AddAgent from './AddAgent';
 import EditAgent from './EditAgent';

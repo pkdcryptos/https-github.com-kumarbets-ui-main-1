@@ -75,7 +75,7 @@
 
 <script>
 import { required, minLength, email } from 'vuelidate/lib/validators';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 export default {
   mixins: [alertMixin],
   props: {

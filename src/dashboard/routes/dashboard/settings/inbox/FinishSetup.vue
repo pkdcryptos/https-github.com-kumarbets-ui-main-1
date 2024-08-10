@@ -55,7 +55,7 @@
 </template>
 
 <script>
-import configMixin from 'shared/mixins/configMixin';
+import configMixin from 'dashboard/mixins/configMixin';
 import EmptyState from '../../../../components/widgets/EmptyState';
 
 export default {

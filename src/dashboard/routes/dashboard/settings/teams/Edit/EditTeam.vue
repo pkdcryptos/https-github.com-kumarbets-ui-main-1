@@ -21,10 +21,10 @@
 import TeamForm from '../TeamForm';
 import router from '../../../../index';
 import PageHeader from '../../SettingsSubPageHeader';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 
 import { mapGetters } from 'vuex';
-import Spinner from 'shared/components/Spinner';
+import Spinner from 'dashboard/components/Spinner';
 
 export default {
   components: {

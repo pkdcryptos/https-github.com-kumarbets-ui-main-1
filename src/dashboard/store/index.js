@@ -18,7 +18,7 @@ import conversationSearch from './modules/conversationSearch';
 import conversationStats from './modules/conversationStats';
 import conversationTypingStatus from './modules/conversationTypingStatus';
 import csat from './modules/csat';
-import globalConfig from 'shared/store/globalConfig';
+import globalConfig from 'dashboard/store/globalConfig';
 import inboxAssignableAgents from './modules/inboxAssignableAgents';
 import inboxes from './modules/inboxes';
 import inboxMembers from './modules/inboxMembers';

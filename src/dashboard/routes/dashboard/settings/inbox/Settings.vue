@@ -295,11 +295,11 @@
 <script>
 import { mapGetters } from 'vuex';
 import { createMessengerScript } from 'dashboard/helper/scriptGenerator';
-import configMixin from 'shared/mixins/configMixin';
-import alertMixin from 'shared/mixins/alertMixin';
+import configMixin from 'dashboard/mixins/configMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 import SettingIntroBanner from 'dashboard/components/widgets/SettingIntroBanner';
 import SettingsSection from '../../../../components/SettingsSection';
-import inboxMixin from 'shared/mixins/inboxMixin';
+import inboxMixin from 'dashboard/mixins/inboxMixin';
 import FacebookReauthorize from './facebook/Reauthorize';
 import PreChatFormSettings from './PreChatForm/Settings';
 import WeeklyAvailability from './components/WeeklyAvailability';

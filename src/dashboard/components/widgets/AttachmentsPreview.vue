@@ -35,7 +35,7 @@
   </div>
 </template>
 <script>
-import { formatBytes } from 'shared/helpers/FileHelper';
+import { formatBytes } from 'dashboard/helpers/FileHelper';
 export default {
   props: {
     attachments: {

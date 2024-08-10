@@ -15,7 +15,7 @@
 <script>
 /* global FB */
 import SettingsSection from '../../../../../components/SettingsSection';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 
 export default {
   components: {

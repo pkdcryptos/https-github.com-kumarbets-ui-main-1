@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { formatDate } from 'shared/helpers/DateHelper';
+import { formatDate } from 'dashboard/helpers/DateHelper';
 export default {
   props: {
     date: {

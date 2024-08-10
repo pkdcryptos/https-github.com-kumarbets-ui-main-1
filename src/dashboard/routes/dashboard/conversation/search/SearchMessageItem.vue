@@ -16,9 +16,9 @@
 </template>
 
 <script>
-import { MESSAGE_TYPE } from 'shared/constants/messages';
+import { MESSAGE_TYPE } from 'dashboard/constants/messages';
 import timeMixin from 'dashboard/mixins/time';
-import messageFormatterMixin from 'shared/mixins/messageFormatterMixin';
+import messageFormatterMixin from 'dashboard/mixins/messageFormatterMixin';
 
 export default {
   mixins: [timeMixin, messageFormatterMixin],

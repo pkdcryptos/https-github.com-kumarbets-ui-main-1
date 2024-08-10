@@ -37,7 +37,7 @@
 
 <script>
 import Modal from 'dashboard/components/Modal';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 import { required, minLength } from 'vuelidate/lib/validators';
 
 export default {

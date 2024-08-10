@@ -23,7 +23,7 @@
 <script>
 import { VeTable, VePagination } from 'vue-easytable';
 import UserAvatarWithName from 'dashboard/components/widgets/UserAvatarWithName';
-import { CSAT_RATINGS } from 'shared/constants/messages';
+import { CSAT_RATINGS } from 'dashboard/constants/messages';
 import { mapGetters } from 'vuex';
 import timeMixin from 'dashboard/mixins/time';
 

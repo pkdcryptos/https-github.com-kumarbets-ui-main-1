@@ -79,7 +79,7 @@ import SidebarItem from './SidebarItem';
 import AvailabilityStatus from './AvailabilityStatus';
 import { frontendURL } from '../../helper/URLHelper';
 import { getSidebarItems } from '../../i18n/default-sidebar';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 import NotificationBell from './sidebarComponents/NotificationBell';
 import AgentDetails from './sidebarComponents/AgentDetails.vue';
 import OptionsMenu from './sidebarComponents/OptionsMenu.vue';

@@ -29,7 +29,7 @@
 <script>
 import ConversationCard from 'dashboard/components/widgets/conversation/ConversationCard.vue';
 import { mapGetters } from 'vuex';
-import Spinner from 'shared/components/Spinner.vue';
+import Spinner from 'dashboard/components/Spinner.vue';
 import ContactDetailsItem from './ContactDetailsItem.vue';
 
 export default {

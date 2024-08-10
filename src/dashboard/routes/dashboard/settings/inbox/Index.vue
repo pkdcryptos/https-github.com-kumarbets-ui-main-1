@@ -124,7 +124,7 @@ import { mapGetters } from 'vuex';
 import Settings from './Settings';
 import adminMixin from '../../../../mixins/isAdmin';
 import accountMixin from '../../../../mixins/account';
-import globalConfigMixin from 'shared/mixins/globalConfigMixin';
+import globalConfigMixin from 'dashboard/mixins/globalConfigMixin';
 
 export default {
   components: {

@@ -130,7 +130,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 import agentMixin from '../../../mixins/agentMixin';
 
 import ContactConversations from './ContactConversations.vue';

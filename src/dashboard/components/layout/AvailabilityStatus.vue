@@ -51,8 +51,8 @@
 <script>
 import { mapGetters } from 'vuex';
 import { mixin as clickaway } from 'vue-clickaway';
-import WootDropdownItem from 'shared/components/ui/dropdown/DropdownItem.vue';
-import WootDropdownMenu from 'shared/components/ui/dropdown/DropdownMenu.vue';
+import WootDropdownItem from 'dashboard/components/ui/dropdown/DropdownItem.vue';
+import WootDropdownMenu from 'dashboard/components/ui/dropdown/DropdownMenu.vue';
 import AvailabilityStatusBadge from '../widgets/conversation/AvailabilityStatusBadge';
 
 const AVAILABILITY_STATUS_KEYS = ['online', 'busy', 'offline'];

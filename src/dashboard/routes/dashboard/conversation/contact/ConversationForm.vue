@@ -74,8 +74,8 @@
 import { mapGetters } from 'vuex';
 import Thumbnail from 'dashboard/components/widgets/Thumbnail';
 
-import alertMixin from 'shared/mixins/alertMixin';
-import { ExceptionWithMessage } from 'shared/helpers/CustomErrors';
+import alertMixin from 'dashboard/mixins/alertMixin';
+import { ExceptionWithMessage } from 'dashboard/helpers/CustomErrors';
 import { required } from 'vuelidate/lib/validators';
 
 export default {

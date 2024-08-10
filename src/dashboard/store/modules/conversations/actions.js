@@ -2,7 +2,7 @@ import Vue from 'vue';
 import * as types from '../../mutation-types';
 import ConversationApi from '../../../api/inbox/conversation';
 import MessageApi from '../../../api/inbox/message';
-import { MESSAGE_STATUS, MESSAGE_TYPE } from 'shared/constants/messages';
+import { MESSAGE_STATUS, MESSAGE_TYPE } from 'dashboard/constants/messages';
 import { createPendingMessage } from 'dashboard/helper/commons';
 
 // actions

@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import ChatOption from 'shared/components/ChatOption';
+import ChatOption from 'dashboard/components/ChatOption';
 
 export default {
   components: {

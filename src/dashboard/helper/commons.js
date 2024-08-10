@@ -1,7 +1,7 @@
 /* eslint no-param-reassign: 0 */
 
-import getUuid from 'widget/helpers/uuid';
-import { MESSAGE_STATUS, MESSAGE_TYPE } from 'shared/constants/messages';
+import getUuid from 'dashboard/helpers/uuid';
+import { MESSAGE_STATUS, MESSAGE_TYPE } from 'dashboard/constants/messages';
 
 export default () => {
   if (!Array.prototype.last) {

@@ -14,7 +14,7 @@
   </div>
 </template>
 <script>
-import alertMixin from 'shared/mixins/alertMixin';
+import alertMixin from 'dashboard/mixins/alertMixin';
 import twitterClient from '../../../../../api/channel/twitterClient';
 
 export default {
