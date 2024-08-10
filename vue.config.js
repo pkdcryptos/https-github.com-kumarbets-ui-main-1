@@ -35,17 +35,7 @@ module.exports = {
         </script>
       `
     },
-    widget: {
-      entry: 'src/packs/widget.js',
-      custom: `
-        <script>
-        window.chatwootConfig = {
-          apiHost: '${API_HOST}',
-          websocketURL: '${WEBSOCKET_URL}'
-        };
-        </script>
-      `
-    },
+
   },
   configureWebpack: {
     resolve: {
@@ -62,7 +52,7 @@ module.exports = {
         './iconfont.ttf': 'vue-easytable/libs/font/iconfont.ttf',
         './iconfont.svg': 'vue-easytable/libs/font/iconfont.svg',
       },
-    },
+    }, 
   
   },
   chainWebpack: config => {
