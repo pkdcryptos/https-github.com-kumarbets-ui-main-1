@@ -63,20 +63,8 @@ export default {
   },
   computed: {
     isActive() {
-      const { key } = this.channel;
-      if (Object.keys(this.enabledFeatures).length === 0) {
-        return false;
-      }
-      if (key === 'facebook') {
-        return this.enabledFeatures.channel_facebook;
-      }
-      if (key === 'twitter') {
-        return this.enabledFeatures.channel_twitter;
-      }
-      if (key === 'email') {
-        return this.enabledFeatures.channel_email;
-      }
-      return ['website', 'twilio', 'api', 'whatsapp', 'sms'].includes(key);
+      
+      return true;
     },
   },
   methods: {

@@ -118,7 +118,7 @@ export default {
       locale: 'en',
       domain: '',
       supportEmail: '',
-      features: {},
+      
       autoResolveDuration: null,
       latestChatwootVersion: null,
     };
@@ -184,7 +184,6 @@ export default {
           domain,
           support_email,
           custom_email_domain_enabled,
-          features,
           auto_resolve_duration,
           latest_chatwoot_version: latestChatwootVersion,
         } = this.getAccount(this.accountId);
@@ -196,7 +195,26 @@ export default {
         this.domain = domain;
         this.supportEmail = support_email;
         this.customEmailDomainEnabled = custom_email_domain_enabled;
-        this.features = features;
+        this.features =  {
+        "inbound_emails": true,
+        "channel_email": true,
+        "channel_facebook": true,
+        "channel_twitter": true,
+        "help_center": true,
+        "macros": true,
+        "agent_management": true,
+        "team_management": true,
+        "inbox_management": true,
+        "labels": true,
+        "custom_attributes": true,
+        "automations": true,
+        "integrations": true,
+        "voice_recorder": true,
+        "channel_website": true,
+        "reports": true,
+        "crm": true,
+        "auto_resolve_conversations": true
+    };
         this.autoResolveDuration = auto_resolve_duration;
         this.latestChatwootVersion = latestChatwootVersion;
       } catch (error) {

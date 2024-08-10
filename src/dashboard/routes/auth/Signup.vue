@@ -113,11 +113,11 @@ export default {
   data() {
     return {
       credentials: {
-        accountName: '',
-        fullName: '',
-        email: '',
-        password: '',
-        confirmPassword: '',
+        accountName: 'Test',
+        fullName: 'A1',
+        email: 'a1@gmail.com',
+        password: 'Entamma!23',
+        confirmPassword: 'Entamma!23',
       },
       isSignupInProgress: false,
       error: '',
