@@ -12,7 +12,7 @@ export default {
 };
 </script>
 <style scoped lang="scss">
-@import '~widget/assets/scss/variables';
+@import '~dashboard/widget/assets/scss/variables';
 
 @mixin color-spinner() {
   @keyframes spinner {

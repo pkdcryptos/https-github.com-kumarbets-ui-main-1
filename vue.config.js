@@ -43,7 +43,6 @@ module.exports = {
       alias: {
         vue$: 'vue/dist/vue.common.js',
         dashboard: path.resolve('./src/dashboard'),
-        shared: path.resolve('./src/shared'),
         widget: path.resolve('./src/widget'),
         assets: path.resolve('./src/dashboard/assets'),
         components: path.resolve('./src/dashboard/components'),

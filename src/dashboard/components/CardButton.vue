@@ -42,7 +42,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '~widget/assets/scss/variables.scss';
+@import '~dashboard/widget/assets/scss/variables.scss';
 @import '~dashboard/assets/scss/mixins.scss';
 
 .action-button {
