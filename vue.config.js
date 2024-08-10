@@ -46,24 +46,6 @@ module.exports = {
         </script>
       `
     },
-    'sdk-test': {
-      entry: 'src/packs/sdk-test.js',
-      custom: `
-      <script>
-        (function(d,t) {
-          var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-          g.src="/app/js/sdk.js";
-          s.parentNode.insertBefore(g,s);
-          g.onload=function(){
-            window.chatwootSDK.run({
-              websiteToken: '${WEBSITE_INBOX_TOKEN}',
-              baseUrl: ''
-            })
-          }
-        })(document,"script");
-      </script>
-      `
-    }
   },
   configureWebpack: {
     resolve: {
@@ -81,12 +63,7 @@ module.exports = {
         './iconfont.svg': 'vue-easytable/libs/font/iconfont.svg',
       },
     },
-    entry: {
-      'sdk': './src/packs/sdk.js',
-    },
-    output: {
-      filename: chunkData => chunkData.chunk.name === 'sdk' ? 'js/[name].js' : 'js/[name]-[hash].js',
-    }
+  
   },
   chainWebpack: config => {
     config.optimization.delete('splitChunks')
