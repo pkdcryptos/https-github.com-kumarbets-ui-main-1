@@ -22,7 +22,7 @@ export default {
       return this.channelType === INBOX_TYPES.FB;
     },
     isAWebWidgetInbox() {
-      return this.channelType === INBOX_TYPES.WEB;
+      return true;
     },
     isATwilioChannel() {
       return this.channelType === INBOX_TYPES.TWILIO;
